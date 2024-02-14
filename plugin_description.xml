@@ -1,0 +1,9 @@
+<library path="lib/librviz_plugins">
+  <class name="rviz/Semantic" 
+         type="rviz::SemanticPCTransformer"
+         base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Transforms the color of each point based on its "intensity" value.
+    </description>
+  </class>
+</library>
